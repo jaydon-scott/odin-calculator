@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="header">Odin Calculator</div>
+
+    <div id="calculator-container">
+      <div id="calculator">
+        <input id="display" value="0" />
+
+        <div id="calculator-btns">
+          <div class="btn-row">
+            <button class="calc-btn">C</button>
+            <button class="calc-btn">CE</button>
+            <button class="calc-btn"><-</button>
+            <button class="calc-btn" data-operator="/">÷</button>
+          </div>
+          <div class="btn-row">
+            <button class="calc-btn">7</button>
+            <button class="calc-btn">8</button>
+            <button class="calc-btn">9</button>
+            <button class="calc-btn">x</button>
+          </div>
+          <div class="btn-row">
+            <button class="calc-btn">4</button>
+            <button class="calc-btn">5</button>
+            <button class="calc-btn">6</button>
+            <button class="calc-btn">-</button>
+          </div>
+          <div class="btn-row">
+            <button class="calc-btn">1</button>
+            <button class="calc-btn">2</button>
+            <button class="calc-btn">3</button>
+            <button class="calc-btn">+</button>
+          </div>
+          <div class="btn-row">
+            <button class="calc-btn">0</button>
+            <button class="calc-btn">.</button>
+            <button class="calc-btn">+/-</button>
+            <button class="calc-btn">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+</html>
